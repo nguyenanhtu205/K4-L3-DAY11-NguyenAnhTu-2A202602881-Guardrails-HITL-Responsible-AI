@@ -6,6 +6,25 @@
 
 ---
 
+## Thông tin bài nộp
+
+- **Họ tên:** Nguyễn Anh Tú
+- **MSSV:** 2A202602881
+- **Repo:** `K4-L3-DAY11-NguyenAnhTu-2A202602881-Guardrails-HITL-Responsible-AI`
+
+### Chạy nhanh (PowerShell)
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+python src/main.py --part 3
+python src/main.py --part 4
+python scripts/grade.py --submission-dir . --out outputs/grade_report.json
+```
+
+> Điền API keys trong `.env` cục bộ trước khi chạy; không commit file này.
+
+---
+
 ## Thời lượng
 
 | Phần | Thời gian |
